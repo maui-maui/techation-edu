@@ -1,4 +1,6 @@
+Introduction to our github
 
+Welcome,
 
 This will be for the Techation Discord Education server for the bot 
 creation classes in Python 3.5 and 3.6
