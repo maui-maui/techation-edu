@@ -1,0 +1,137 @@
+  Welcome back to lesson 2,
+
+In this lesson we will be going over a single event right now. An event 
+is a code block that is triggered when some certain event occurs, this 
+event we will go over has 2 different formats depending where you put it. 
+Whether you put it in the cog or in the main bot file, the only thing 
+that will change mainly is the decorator. If you don't know what a 
+decorator is its basically the thing before the command block. It looks 
+like...
+
+       @commands.command()
+
+             or
+
+       @bot.event()    #only main bot file this isnt included in cogs
+
+
+  So this will go in almost all commands. However there are bot events 
+but inside cogs for us we will not be using @bot.event as you would in 
+the main bot file to define an event. Events can include many thing here 
+are a few for now.
+
+(These may or may not change due to updates)
+
+  -
+
+  -
+
+  -
+
+  -
+
+  -
+
+  -
+
+
+
+  These can be used either like this in a main bot file:
+
+  @bot.event()
+  async def on_member_join():
+     #code below here
+     print("Member joined")
+
+  However in cog (aka an extension) we would do it all the same except 
+the decorator at the top of it lise so:
+
+  async def on_member_join():
+    #code below here
+    print("Member Joined")
+
+##############################################################################
+
+  Now we will go over another simple command with an extra arg in the 
+function. So first we want to include the basic '@commands.command()' 
+part at the begining of your command block.
+
+    @commands.command()
+    async def cogs(self, choice:str="")
+        if choice == "kill":
+	    await self.bot.say("Killing cog")
+
+
+	elif choice == "load":
+	     await self.bot.say("Loading cog")
+
+
+	elif choice == "":
+	    await self.bot.say("```\n Cogs command requires input of 
+either\n-load\n-kill ```")
+
+        else:
+	    await self.bot.say("```\n Cogs command requires arg of 
+either\n-load\n-kill ```")
+
+
+  Now don't be overwhelmed with this code if you are. Its quite simple 
+however if you look closely it doesnt do much. Basicaly what we have 
+here for starts is:
+
+
+	 @commands.command()
+             async def cogs(self, choice:str="")
+
+  This is the beginning that (async def cogs) [p]cogs <choice> is all this does making choice a str that equals a blank string. So if someone 
+does [p]cogs load or [p]cogs kill either one or the other of these 2 conditionals will run.
+
+        if choice == "kill":
+            await self.bot.say("Killing cog")
+
+
+        elif choice == "load":
+             await self.bot.say("Loading cog")
+
+
+	else:
+            await self.bot.say("```\n Cogs command requires arg of either\n-load\n-kill ```")
+
+	    
+  Plus we added an else statement to run if choice doesn't equal kill or load. i.e. if someone types '[p]cogs' or any word after cogs that 
+isn't load or kill it will output:
+
+```
+ Cogs command requires arg of either
+-load
+-kill
+
+```
+
+  So now we need to make this command do something more. Load a cog... and kill a cog... To start off we need 2 functions here...
+
+      self.bot.unload_extenstion("cog.test")
+
+                    and
+ 
+      self.bot.load_extenstion(cog.test")
+
+
+  Note however this will only unload and load the cog "test" you can 
+modify it to do other things though. So to wrap it all up here is the 
+full commands code...
+
+
+ @commands.command()
+    async def cogs(self, choice:str="")
+        if choice == "kill":
+            await self.bot.say("Killing cog")
+	    self.bot.unload_extension("cog.test")
+
+        elif choice == "load":
+            await self.bot.say("Loading cog")
+	    self.bot.load_extenstion("cog.test")
+
+        else:
+            await self.bot.say("```\n Cogs command requires input of
+either\n-load\n-kill ```")
