@@ -125,4 +125,54 @@ Bot-folder
  await self.bot.say("Testing is good {}".format(ctx.message.author.mention))
 
 
-  
+  And now to finalize the last bit of the code with this.
+
+      def setup(bot):
+          bot.add_cog(Test(bot))  
+
+-----------------------------------------------------------------------------
+
+
+  To conclude this lesson you want to invite your bot to the server you
+  wish to add it to by using the link you made earlier with your bot id. 
+  After you see it in the server it should be offline unless you jumped 
+  ahead. To bring the bot online you want to open a terminal in that 
+  directory and type the following...
+
+      python bot.py
+
+  After you type that you should see your bot come online and it should 
+  say something along these lines in your terminal.
+
+################
+Bot is online!
+################
+Logged in as:
+BOT NAME HERE
+BOT ID HERE
+Prefix:  :
+#################
+
+  So after your bot is online type in discord this command. By the way 
+  [p] basically just means your prefix.
+
+       [p]test
+
+  And the output should be....
+
+     Testing is good @YOUR USERNAME
+
+-----------------------------------------------------------------------------
+
+  This concludes the first lesson of making your own discord bot with 
+  cogs. As a summary:
+
+-> We made a main bot file 
+
+-> We made a basic cog called `test`
+
+-> We made a "safe" place for your secure data so you dont have to as 
+   cautious with sharing your code.
+
+-----------------------------------------------------------------------------
+
