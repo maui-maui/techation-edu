@@ -1,0 +1,45 @@
+The first assignment is simple but time consuming. This can be done 
+either in just a regular python file or to add more challenge 
+incorporate it to a discord bot or if you can do something else with it 
+do it. The sky is the limit...
+
+   
+    ################################
+    Basic Math
+    ################################
+    1- Add
+    2- Subtract
+    3- Multiply
+    4- Divide
+    5- Number to the power of x
+    ################################
+    Perimeters
+    ################################
+    6- Perimeter of an equilateral
+    7- Perimeter of a rectangle
+    8- Perimeter of a triangle
+    ################################
+    Area
+    ################################
+    9- Area of a square
+    10- Area of a rectangle
+    11- Area of a triangle
+    12- Area of a trapezoid
+    ################################
+    Volume
+    ################################
+    13- Volume of a cube
+    14- Volume of a box
+    15- Volume of a sphere
+    16- Volume of a triangular prism
+    17- Volume of a cylinder
+    ################################
+    Direct Current (Electricity)
+    ################################
+    18- Amps
+    19- Watts
+    20- Volts
+    21- HorsePower
+    22- Efficienty
+    23- Resistance
+    ################################
