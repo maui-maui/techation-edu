@@ -1,0 +1,23 @@
+  Welcome to assignment one for making a discord bot with cogs. The bot 
+will be in Python 3.5 but I may slip in 3.6 on accident so its probably 
+best to use the later version. As a forewarning I suck at python but I'm
+getting better and soon this will all be done with ease for all of us. 
+So just bare with me as we go through this course. 
+
+  As a forewarning I don't plan on teaching python here but I will try 
+to explain what I am doing in each step to the best of my abiliy. I 
+would also like to inform you that in this lesson I will be teaching 
+what I learn to better iterate it and if you are interested in doing 
+the same let us know...
+
+However,
+
+This is a break down of the lessons upto date:
+------------------------------------------------
+LESSON #  |       Title          |  Start date |
+------------------------------------------------
+Lesson 1 -- Getting Started      | Apr. 12, 17 |
+Lesson 2 -- Adding On to the cog |  ...        |
+...
+...
+------------------------------------------------

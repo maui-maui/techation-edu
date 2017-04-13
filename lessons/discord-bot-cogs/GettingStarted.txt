@@ -1,0 +1,22 @@
+  To get started you want to make a bot app in discordapp.com/developers 
+and make one. However under your profile setting you want to make sure 
+you have DEVELOPERS MODE turned on. After you make a bot user you want 
+to so 3 things.
+
+ 1 -- Make bot app into bot user.
+
+ 2 -- Grab bots id and replace the '<-BOT-ID->` part in the following 
+link with your bots personal id.
+
+link:
+
+    https://discordapp.com/api/oauth2/authorize?client_id
+    =<-BOT-ID->&scope=bot&permissions=1609825363
+
+
+ 3 -- Locate your bots token this is a very sensitive piece of 
+information so try to refrain from sharing it unless you are a 100% sure 
+of what you are doing.
+
+After you gather all this data we are gonna get started in lesson 1 with 
+the actual coding
