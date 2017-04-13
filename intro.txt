@@ -1,0 +1,19 @@
+
+
+This will be for the Techation Discord Education server for the bot 
+creation classes in Python 3.5 and 3.6
+
+To join our educational community all you have to do is join us on 
+discord this will be our main location...
+
+You can join us on Discord by joining here https://discord.gg/7st72PH
+
+We offer a range of other classes but this is the only one currently on 
+github (as of April 12th of 2017) we will soon be on Facebook, YouTube, 
+Twitter, and soon our own website for you to visit! We will keep you 
+posted in this readme and/or in the Discord server its self. So be sure 
+to come visit us. And if ur new to discord from github let us know and 
+we can also help you get accustomed to how Discord works... Enjoy and 
+have a nice time learning... I will add comments as much as possible to 
+inform of whats going on and will include an intro txt for each 
+assignment or task or lesson...
