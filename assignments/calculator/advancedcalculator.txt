@@ -1,3 +1,5 @@
+Assignment One -- Advanced Calculator --
+
   The first assignment is simple but time consuming. This can be done 
 either in just a regular python file or to add more challenge 
 incorporate it to a discord bot or if you can do something else with it 
