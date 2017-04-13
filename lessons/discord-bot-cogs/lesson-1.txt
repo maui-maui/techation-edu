@@ -72,5 +72,57 @@ Bot-folder
 -----------------------------------------------------------------------------
 
 {IN OUR SECRETS.JSON}
-  So now in our SECRETS.JSON is the 3 things we got from our bot app 
-  earlier. 
+  So now in our SECRETS.JSON is the 2 of the 3 things we got from our 
+  bot app earlier. 
+
+  {
+    "botid":"put the bot id in here",
+    "token":"put the bot token in here",
+    "prefix":"choose a prefix for your bot here I'm gonna use ':'"
+  }
+
+  Don't be confused about this if you are its quite simple. Basically if 
+  you haven't used json before its just a dictionary in laymans terms. 
+
+  For the sake of further example of json...
+
+      {"Word":"Value"}
+
+-----------------------------------------------------------------------------
+
+{IN OUR TEST.PY COG}
+
+  This is going to start off fairly simple.
+
+
+      from discord.ext import commands
+
+
+      class Test:
+      """TESTING COG"""
+
+          def __init__(self, bot):
+              self.bot = bot
+
+  You import the library and create a class with the name of your cog. 
+  After that def __init__ stuff is just your initial stuff for the bot. 
+  I won't be editing that much so no need to pay much attention to it. 
+  
+  Next will be the actual command which I'll explain more in the 
+  lesson-1.py  
+
+           @commands.command(pass_context=True)
+           async def test(self, ctx):
+              """|  Testing Testing..."""
+    
+              #Your code will go here
+              await self.bot.say(f"Testing is good {authormention}")
+
+  Note in the await self.bot.say part I used and f string from python 
+  3.6 so to do it in 3.5 you would replace that line with this.
+
+
+ await self.bot.say("Testing is good {}".format(ctx.message.author.mention))
+
+
+  
