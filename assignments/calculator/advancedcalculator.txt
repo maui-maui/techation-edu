@@ -2,7 +2,6 @@
 either in just a regular python file or to add more challenge 
 incorporate it to a discord bot or if you can do something else with it 
 do it. The sky is the limit...
-
    
     ################################
     Basic Math
