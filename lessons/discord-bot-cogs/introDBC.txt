@@ -17,7 +17,8 @@ This is a break down of the lessons upto date:
 LESSON #  |       Title          |  Start date |
 ------------------------------------------------
 Lesson 1 -- Getting Started      | Apr. 12, 17 |
-Lesson 2 -- Adding On to the cog |  ...        |
+Lesson 2 -- Lesson 1 Bot setup   | Apr. 12, 17 |
+Lesson 3 -- Adding On to the cog |  ...        |
 ...
 ...
 ------------------------------------------------

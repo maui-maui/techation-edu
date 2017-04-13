@@ -1,0 +1,76 @@
+  First you can choose to follow me here and get code snippets but at 
+the end of each lesson I'll put a file organized by names and folders of 
+how to organize it, and add addition comments along the way so look at 
+both or just the lesson-1.py file.
+
+Right now before we get started we need to make a few folders and files.
+
+Bot-folder
+|
+|-->botfile.py
+|
+|-->cogsfolder
+    |
+    |-->test.py
+|
+|-->datafolder
+    |
+    |-->secrets.json
+
+-----------------------------------------------------------------------------
+
+{IN OUR BOTFILE.PY}
+  To get started we are gonna import a few libraries
+
+    from discord.ext import commands
+    import json
+    import asyncio
+
+  First off we import `from discord.ext import commands` for our bot 
+  discord.ext commands. Next we have json because we are gonna make a 
+  file.json soon which we will go over then. And last but not least we 
+  import asyncio for the asyncio stuff which we will see shortly.
+
+  After that we are gonna add the following code. (This is where our 
+  json library comes in handy) 
+
+        with open('datafolder/secrets.json', 'r') as f:
+          secrets = json.loads(f.read())
+
+  This comes more into play when we get to SECRETS.JSON section. next we 
+  will add our variables we will be using for this file.
+
+        token = secrets['token']
+        prefix = secrets['prefix']
+        bot = commands.Bot(command_prefix=prefix)
+
+  Now we will do our first bot event.
+
+    @bot.event
+    async def on_ready():
+        print('\n################')
+        print("Bot is online!")
+        print('################')
+        print('Logged in as:')
+        print(bot.user.name)
+        print(bot.user.id)
+        print('Prefix: ', prefix)
+        print('#################\n')
+
+  This will print that info to your terminal or console when your bot is 
+  online. Next this part will be to load the TEST.py cog in COGSFOLDER 
+  so take note for now.
+
+        #### <-- LOADING COGS --> ####
+        bot.load_extension('cogs.test')
+        print("COG TEST LOADED")
+
+  And now finally in the end of the code goes
+
+        bot.run(token)
+
+-----------------------------------------------------------------------------
+
+{IN OUR SECRETS.JSON}
+  So now in our SECRETS.JSON is the 3 things we got from our bot app 
+  earlier. 
