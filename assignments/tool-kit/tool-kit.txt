@@ -1,0 +1,27 @@
+  This assignment is based on creativity. Its a toolkit this can be as 
+simple or as complex as you want and you can make it do many useful 
+things. For one you can make a tool box that can do some of the 
+following things:
+
+-Give date/time
+
+-A todo list
+
+-A notebook to add quick notes
+
+-An app opener (open firefox or chrome if your not sure what app to 
+choose) **Make this more complex if you want by adding different pages 
+you can open in the tool kit**
+
+-A timer
+
+-A live clock
+
+-An alarmclock
+
+-A reminder 
+
+
+  These should be plenty of ideas for you to get started with. You can 
+submit to us on our server or you can share it with us on our facebook 
+once its ready... (As of Apr. 13th, 17)
