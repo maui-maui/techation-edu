@@ -1,0 +1,72 @@
+  Welcome to lesson 2 of base systems,
+
+  We will be going over base 2, this system everyone has heard of 
+probably, it also known as Binary. The language computers can understand. 
+
+
+  For base 2 we have these place holders...
+
+1
+2
+4
+8
+16
+32
+64
+128
+...
+
+  And so on...
+
+  So lets grab a number. Lets say 12... So we would fill up the place 
+values from biggest to smallest like all other bases. We have 
+12 so 8 would be the highest we can go without exceeding 12.
+
+0 x 128
+0 x 64
+0 x 32
+0 x 16
+1 x 8
+1 x 4
+0 x 2
+0 x 1
+
+  Which will translate to 0000 1100... Because 128, 64, 32, 16, 
+2, and 1 are all 0 values. So now we can do 3 base systems 
+roughly.
+
+Decimal: 12
+
+Tally: 11111 11111 11
+
+Binary: 0000 1100
+
+  However lets try a bigger number... but lets do this one 
+backwards starting with binary.
+
+  1111 1111
+
+  This is a full binary number. This is because a 1 byte of 
+data for a computer is 1111 1111 or any mix of the 8 bits 
+which is another name for digit or place value. (8 numbers in 1 
+byte -- [1111 1111])
+
+  So binary to decimal we will have...
+
+128 x 1
+64 x 1
+32 x 1
+16 x 1
+8 x 1
+4 x 1
+2 x 1
+1 x 1
+
+  Which if you add all the values with ones you will get...
+
+128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255
+
+---------------------------------------------------------------------
+
+  This concludes our base 2 lesson for now... Next we will go 
+over base 16 in the next lesson. See you there.
