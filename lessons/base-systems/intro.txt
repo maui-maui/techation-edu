@@ -1,0 +1,23 @@
+  Welcome to base systems class. This will be an introductory class to 
+base systems. If you don't know what base systems are they are basically 
+another name for number systems for example we most commonly use base 10 
+which we call by another name, Decimal system, which is a number system 
+that counts from 0-9 until it hit 2 place values i.e. the decimal number 
+10.
+
+  We won't cover all base-systems in these lessons but we will start off 
+with these
+
+base 1
+base 2
+base 3 (maybe)
+base 10 (briefly)
+base 16
+
+  We won't necessarily go in this order. In fact base 1 and base 10 will 
+be put together in one lesson since they are really simple and you 
+already know the fundaments to both these systems. Then we will carry 
+onto base 2 and base 16 which is when we will incorporate 'ASCII' into 
+the lessons. And finally we might conclude with base 3. By this time you 
+should get the gist of how to figure out bases because the fundaments 
+can be applied to all the bases. So without further ado... Lesson 1
