@@ -1,0 +1,107 @@
+  Welcome to lesson 1 of base systems, 
+
+  Since we already went over the introductions lets dive into our first 
+base system. We will start will the ever famous... Base 10. We all know 
+it, well most of us. But anyways if not heres how it works and if so 
+here is a formal refresher.
+
+
+  So base 10 is comprised of 10 different unique digits. They are as 
+follow:
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+  However like other bases you can use these digits to make other bigger 
+digits, like for example we have the number 243 made up of a 2, a 4, and 
+lastly a 3. We don't see this number a two four three, but rather two 
+hundred forty three. So we can represent any amount of things by mixing 
+these digits around to make them. 
+
+  In decimal we have different place values just like other base 
+systems. In base 10 we have the following place values...
+
+1
+10
+100
+1000
+...
+
+  And so on...
+
+  So forexample if we divide our number 243 into these place values we 
+get. 
+
+1 - 3x
+10 - 4x
+100 - 2x
+1000 - 0x
+
+  Or in other words..
+
+We have 3 ones
+We have 4 tens
+We have 2 hundreds
+and lastly
+We have 0 Thousands
+
+
+  Which in longer hand would translate to...
+
+1 x 3
+10 x 4
+100 x 2
+1000 x 0
+
+ After you do this you add them together  
+
+3 + 40 + 200 + 0  
+
+  However we will remove the zero because it doesn't change the value 
+of the rest of the equation. So that will be...
+
+3 + 40 + 200 = 243
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+=============================================================================
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+  Now we will go over a base one very briefly because most of you should 
+know it.
+
+Base 1 is made of one digit just like base 10 is made up of ten digits. 
+This digit is '1' unlike most bases this one doesnt include the '0' 
+digit. So if we have the number 7 we will represent that with 7 ones 
+or...
+
+1 x 7
+
+  Which in decimal is of course 7. But in base one which is also known 
+most popularly by the Tally System which is represented by '1' or 
+'tallies' however in base one they are broken into sets of 5 if possible 
+like so... (Note: I can't cross the 5th line so ill just add an extra 
+space to emphasize the seperation)
+
+Decimal: 7
+
+Tally: 11111  11 
+
+  Just like that...
+
+  Lets take one more number for the sake of example. Lets choose 23...
+
+Decimal: 23
+
+Tally: 11111  11111  11111  11111  111
+
+------------------------------------------------------------------------------
+
+  This concludes Bases 1 and 10 lessons I hope you enjoyed!
