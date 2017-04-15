@@ -1,0 +1,38 @@
+  Welcome to lesson 3 of introduction to base systems, 
+
+In this lesson we will be going over base 16. Which may seem a bit 
+complicated at first but after you start understanding it you won't have 
+much of an issue figuring out the rest. So to start off, base 16 has 16 
+different digits just like base 10 has 10 and base 2 has 2. These digits how 
+ever bring in letters too. Which may seem weird but they basically just 
+represent a number so its not to complicated. We have...
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+A
+B
+C
+D
+E
+F
+
+  With the letters from 'A' to 'F' can be interpreted as follows:
+
+A = 10
+B = 11
+C = 12
+D = 13
+E = 14
+F = 15
+
+  So to jump right in our place values are:
+
+
