@@ -1,0 +1,38 @@
+Welcome to web-scraping!
+
+This will explain getting the information you need on websites
+
+Please note, you will need to change some things, depending on the site
+I will be using backpack.tf as an example
+
+(Please look at the code while reading this)
+
+Also, at the end I use f-strings. If you are using 3.5 or below, you will have to
+change them to .format
+
+To get started, open your terminal. On windows, this is cmd
+type in: pip install requests
+and: pip install bs4
+
+(This is not in the code, you must do this yourself)
+
+First we import our packages, and set out site url to webSite
+Then, We use requests to get the website information
+
+Because requests returns an object, we must use page.content to get the string
+of the raw html code
+
+(From here on, it depends on your site. the find_all will differ, and the attributes (if any) will also vary)
+
+Now that we have a BuetifulSoup object with the site, we use find_all('p',{'class':'value'})
+
+The 'p' defines that we want every html tag, thats a p tag. Then we use the dict to find every 'p' tag that
+has the attribute class, which is equall to value
+
+It will return another object, which we can get the text that isn't in a tag from, by doing the text.text, where text is a tag
+
+Now, we also got the key, ref, and bud tags classes, which we can get attributes from, as-if it was a dict
+
+Then we print it out, and BOOM! Magic!
+
+Any questions, pm or mention me, !Zwork101
